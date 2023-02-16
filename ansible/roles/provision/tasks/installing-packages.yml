@@ -6,6 +6,7 @@
     upgrade: "safe"
     packages:
       - {name: "keepalived"} # To enable failover between two or more servers.
+      - {name: "chrony"} # The NTP server.
 
 - name: "Setting up the Keepalived package"
   ansible.builtin.import_tasks: "roles/common/tasks/debian/packages/keepalived.yml"
