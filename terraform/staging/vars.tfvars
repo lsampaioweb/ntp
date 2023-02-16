@@ -1,13 +1,13 @@
-project     = "XXX"
+project     = "NTP"
 environment = "Staging"
 
 vm_instance = {
   "01" = {
     # VM
-    startup = "order=2010"
+    startup = "order=2014"
     networks = {
       "01" = {
-        tag    = 5
+        tag = 4
       }
     }
 
@@ -17,10 +17,10 @@ vm_instance = {
   },
   "02" = {
     # VM
-    startup = "order=2011"
+    startup = "order=2015"
     networks = {
       "01" = {
-        tag    = 5
+        tag = 4
       }
     }
 

@@ -1,5 +1,5 @@
-# {project_name}
-Description XXX.
+# NTP
+Project that will create the VMs that will work as the NTP servers of the HomeLab.
 
 # Scripts:
 [Terraform](terraform/ "Terraform")

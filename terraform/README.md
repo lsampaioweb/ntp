@@ -1,5 +1,5 @@
-# Project-Name
-Project with Terraform and Ansible scripts to create an Ubuntu VM on Proxmox from a cloned template with Docker and XXX installed and configured.
+# NTP
+Project with Terraform and Ansible scripts to create an Ubuntu VM on Proxmox from a cloned template with NTP installed and configured.
 
 This project uses my Terraform Module. It has some commands that should be executed.
 
