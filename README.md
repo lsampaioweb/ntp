@@ -1,4 +1,4 @@
-# NTP - Network Time Protocol
+# Network Time Protocol (NTP) Server
 Project that will create the VMs that will work as the NTP servers of the HomeLab.
 
 # Scripts:
