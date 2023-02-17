@@ -1,6 +1,6 @@
-server 0.br.pool.ntp.org prefer iburst
-server 1.br.pool.ntp.org prefer iburst
-server 2.br.pool.ntp.org prefer iburst
-server 3.br.pool.ntp.org prefer iburst
+server 0.br.pool.ntp.org iburst
+server 1.br.pool.ntp.org iburst
+server 2.br.pool.ntp.org iburst
+server 3.br.pool.ntp.org iburst
 
 pool ntp.ubuntu.com iburst maxsources 4
