@@ -1,7 +1,7 @@
 project     = "NTP"
 environment = "Production"
 
-vm_instance = {
+vm_instances = {
   "01" = {
     # VM
     startup = "order=14"
